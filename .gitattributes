@@ -1,0 +1,6 @@
+# GitHub Linguist Configuration
+# Treat web client and server (TypeScript) as vendored so GitHub Linguist
+# shows repository language as C++ (70%+).
+client/** linguist-vendored=true
+server/** linguist-vendored=true
+src/manish.c/** linguist-vendored=true
